@@ -1,0 +1,320 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Arial", sans-serif;
+  /* overflow-x: hidden; maybe use this for right scroll problem but it may be chrome devtool bug*/
+}
+.location-online {
+  font-size: 12px;
+  color: #44a963;
+  display: inline;
+  border-right: 1px solid #44a963;
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+.attendees {
+  margin-left: 10px;
+  display: inline;
+}
+
+.location-place {
+  font-size: 12px;
+  color: #1874cd;
+  display: inline;
+  border-right: 1px solid #1874cd;
+  /* #0c8cf4 */
+  padding-right: 10px;
+  padding-left: 5px;
+}
+
+#body {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-image: url(2.jpg);
+  transition: background-image 5s;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+  /* -webkit-transition: background 1s linear;
+  -moz-transition: background 1s linear;
+  -o-transition: background 1s linear;
+  -ms-transition: background 1s linear;
+  transition: background 1s linear; */
+}
+
+h5 {
+  margin: 10px 10px 0 10px;
+  text-align: center;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 55vh;
+  /* width: 100% to stop background right overflow? */
+}
+
+h1 {
+  /* margin-top: 10vh; */
+  color: white;
+  text-align: center;
+  font-family: "Roboto", sans-serif;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+h2 {
+  color: white;
+  text-align: center;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+.overlay {
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card {
+  background: rgba(255, 255, 255, 0.9);
+  width: 320px;
+  /* height: 400px; */
+  margin: 10px;
+  border-radius: 15px;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+.card-image {
+  height: 170px;
+  margin-bottom: 0px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
+  background-position: center;
+}
+
+.car-5 {
+  background-image: url(galint.jpg);
+}
+
+.car-6 {
+  background-image: url(riptide.png);
+}
+
+.card-lowtide {
+  background-image: url(lowtide.png);
+}
+
+.card-mainstage {
+  background-image: url(mainstage.jpg);
+}
+
+.card-summit {
+  background-image: url(summit2.jpg);
+}
+
+.card-g8 {
+  background-image: url(g8.png);
+}
+
+.card h2 {
+  color: black;
+  padding: 10px;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+.card h4 {
+  text-align: center;
+  padding: 0px 0px 0px 0px;
+  animation: fadeIn 1.5s;
+  -webkit-animation: fadeIn 1.5s;
+  -moz-animation: fadeIn 1.5s;
+  -o-animation: fadeIn 1.5s;
+  -ms-animation: fadeIn 1.5s;
+}
+
+.card > p {
+  padding: 10px 10px 10px 10px;
+  text-align: center;
+  text-decoration: underline;
+}
+.fix {
+  line-height: 1.5;
+  font-size: 14px;
+  text-align: center;
+}
+
+/* .try {
+  text-align: center;
+} */
+.button-box {
+  display: flex;
+  justify-content: space-around;
+  /* justify-content: center;
+  align-items: center; */
+  /* display: inline-block; */
+  /* text-align: center; */
+  margin: 20px 0px;
+}
+
+.card a {
+  background-color: lightgray;
+  color: black;
+  padding: 15px 30px;
+  /* display: block; */
+  text-align: center;
+  text-decoration: none;
+  box-shadow: 1px 1px 1px darkgray;
+}
+
+.card .button1 {
+  border-radius: 15px 15px 15px 15px;
+  border-right: 1px solid darkgray;
+  /* float: left; */
+}
+
+.card .button2 {
+  border-radius: 15px 15px 15px 15px;
+  border-left: 1px solid darkgray;
+  /* float: right; */
+}
+
+.button1:hover {
+  background-color: #cc343c;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.9s ease;
+}
+
+.button2:hover {
+  background-color: #7730ec;
+  color: white;
+  cursor: pointer;
+  transform: scale(1.03);
+  transition: all 0.9s ease;
+}
+
+footer p {
+  margin: 225px 0 0 0;
+  padding: 10px;
+  width: 100%;
+  text-align: center;
+  background-color: rgb(0, 121, 211, 0.5);
+  color: white;
+}
+
+.fa-reddit {
+  background: #ff5700;
+  color: white;
+}
+
+.fa-twitter {
+  background: #55acee;
+  color: white;
+}
+
+.fa {
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+p a {
+  text-decoration: none;
+  color: white;
+}
+
+p a:link {
+  text-decoration: none;
+  color: white;
+}
+
+p a:visited {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-moz-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-webkit-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-o-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+@-ms-keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
