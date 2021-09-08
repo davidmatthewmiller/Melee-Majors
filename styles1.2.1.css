@@ -36,7 +36,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(2.jpg);
+  background-image: url(background.jpg);
   transition: background-image 5s;
   background-size: cover;
   background-repeat: no-repeat;
@@ -122,12 +122,16 @@ h2 {
   background-position: center;
 }
 
-.car-5 {
-  background-image: url(galint.jpg);
-}
-
 .car-6 {
   background-image: url(riptide.png);
+}
+
+.card-pinnacle {
+  background-image: url(pinnacle.png);
+}
+
+.card-smashcon {
+  background-image: url(smashcon.png);
 }
 
 .card-lowtide {
@@ -139,7 +143,7 @@ h2 {
 }
 
 .card-summit {
-  background-image: url(summit2.jpg);
+  background-image: url(summit.png);
 }
 
 .card-g8 {
