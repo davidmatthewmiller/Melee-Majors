@@ -35,7 +35,7 @@
   left: 0;
   width: 100%;
   height: 100vh;
-  background-image: url(background8.jpg);
+  background-image: url(background.jpg);
   transition: background-image 5s;
   background-size: cover;
   background-repeat: no-repeat;
@@ -126,10 +126,6 @@ h2 {
   background-position: center;
 }
 
-.card-smashcon {
-  background-image: url(smashcon.png);
-}
-
 .card-swt1 {
   background-image: url(swt3.jpg);
 }
@@ -144,6 +140,10 @@ h2 {
 
 .card-mainstage {
   background-image: url(mainstage.jpg);
+}
+
+.card-hflan {
+  background-image: url(hflan.png);
 }
 
 .card-summit {
