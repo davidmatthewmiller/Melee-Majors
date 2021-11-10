@@ -126,16 +126,8 @@ h2 {
   background-position: center;
 }
 
-.card-swt1 {
-  background-image: url(swt3.jpg);
-}
-
 .card-swt2 {
   background-image: url(swt3.jpg);
-}
-
-.card-same {
-  background-image: url(same.png);
 }
 
 .card-mainstage {
@@ -152,6 +144,10 @@ h2 {
 
 .card-g8 {
   background-image: url(g8.png);
+}
+
+.card-camp {
+  background-image: url(camp.png);
 }
 
 .card h2 {
