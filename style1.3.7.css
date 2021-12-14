@@ -134,16 +134,16 @@ h2 {
   background-image: url(hflan.png);
 }
 
-.card-summit12 {
-  background-image: url(summit12.png);
-}
-
 .card-g8 {
   background-image: url(g8.png);
 }
 
 .card-camp {
   background-image: url(camp.png);
+}
+
+.card-doubledown {
+  background-image: url(doubledown.png);
 }
 
 .card h2 {
