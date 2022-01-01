@@ -146,6 +146,17 @@ h2 {
   background-image: url(doubledown.png);
 }
 
+.card-summit13 {
+  background-image: url(summit13.png);
+}
+
+.card-battleofbc {
+  background-image: url(battleofbc.png);
+}
+
+.card-bighouse {
+  background-image: url(bighouse.png);
+}
 .card h2 {
   color: black;
   padding: 10px;
