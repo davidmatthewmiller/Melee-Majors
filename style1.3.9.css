@@ -146,6 +146,17 @@ h2 {
   background-image: url(doubledown.png);
 }
 
+.card-function {
+  background-image: url(function.png);
+}
+
+.card-ltc {
+  background-image: url(ltc.png);
+}
+.card-bam {
+  background-image: url(bam.png);
+}
+
 .card-summit13 {
   background-image: url(summit13.png);
 }
