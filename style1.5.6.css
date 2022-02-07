@@ -4,6 +4,7 @@
   box-sizing: border-box;
   font-family: "Arial", sans-serif;
 }
+
 .location-online {
   font-size: 12px;
   color: #44a963;
@@ -23,29 +24,35 @@
   color: #1874cd;
   display: inline;
   border-right: 1px solid #1874cd;
-  /* #0c8cf4 */
+  /* #0c8cf4; */
   padding-right: 10px;
   padding-left: 5px;
 }
 
-#body {
-  background-color: white;
+.bgImg {
   position: fixed;
   top: 0;
-  left: 0;
-  width: 100%;
-  height: 100vh;
-  background-image: url(background.jpg);
-  transition: background-image 5s;
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   z-index: -1;
-  /* -webkit-transition: background 1s linear;
-  -moz-transition: background 1s linear;
-  -o-transition: background 1s linear;
-  -ms-transition: background 1s linear;
-  transition: background 1s linear; */
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 0;
+  transition: opacity 1100ms ease-in-out 0s;
+}
+
+.bgImgShow {
+  position: fixed;
+  top: 0;
+  z-index: -1;
+  height: 100vh;
+  width: 100vw;
+  object-fit: cover;
+  opacity: 1;
+  transition: opacity 1100ms ease-in-out 0s;
+}
+
+body {
+  background-color: black;
 }
 
 h5 {
@@ -126,12 +133,8 @@ h2 {
   background-position: center;
 }
 
-.card-swt2 {
-  background-image: url(swt3.jpg);
-}
-
-.card-hflan {
-  background-image: url(hflan.png);
+.card-lacs4 {
+  background-image: url(lacs4.png);
 }
 
 .card-g8 {
@@ -154,7 +157,7 @@ h2 {
   background-image: url(ltc.png);
 }
 .card-bam {
-  background-image: url(bam.png);
+  background-image: url(bam.jpg);
 }
 
 .card-summit13 {
@@ -225,19 +228,19 @@ h2 {
 }
 
 .button1:hover {
-  background-color: #cc343c;
+  background-image: linear-gradient(to right, rgb(203, 51, 59, 0.5), rgb(191,148,255,.9));
   color: white;
   cursor: pointer;
   transform: scale(1.03);
-  transition: all 0.9s ease;
+  transition: all 0.4s ease;
 }
 
 .button2:hover {
-  background-color: #7730ec;
+  background-image: linear-gradient(to right, rgb(203, 51, 59, 0.5), rgb(191,148,255,.9));
   color: white;
   cursor: pointer;
   transform: scale(1.03);
-  transition: all 0.9s ease;
+  transition: all 0.4s ease;
 }
 
 footer p {
@@ -245,8 +248,10 @@ footer p {
   padding: 10px;
   width: 100%;
   text-align: center;
-  background-color: rgb(0, 121, 211, 0.5);
+  background-image: linear-gradient(to right, rgb(203, 51, 59,.75), rgb(191,148,255,.75));
   color: white;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
 }
 
 .fa-reddit {
