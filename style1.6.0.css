@@ -141,6 +141,10 @@ h2 {
   background-image: url(g8.png);
 }
 
+.card-pound {
+  background-image: url(pound.png);
+}
+
 .card-camp {
   background-image: url(camp.png);
 }
@@ -166,6 +170,10 @@ h2 {
 
 .card-battleofbc {
   background-image: url(battleofbc.png);
+}
+
+.card-ceo {
+  background-image: url(ceo.png);
 }
 
 .card-bighouse {
