@@ -177,6 +177,10 @@ h2 {
   background-image: url(bighouse.png);
 }
 
+.card-camp {
+  background-image: url(camp.png);
+}
+
 .card-apex {
   background-image: url(apex.jpg);
 }
@@ -187,6 +191,10 @@ h2 {
 
 .card-swt {
   background-image: url(swt.jpg);
+}
+
+.card-panda {
+  background-image: url(panda.png);
 }
 
 .card h2 {
