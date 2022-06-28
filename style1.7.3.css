@@ -137,10 +137,6 @@ h2 {
   background-image: url(doubledown.png);
 }
 
-.card-ceo {
-  background-image: url(ceo.png);
-}
-
 .card-goml {
   background-image: url(goml.png);
 }
@@ -194,7 +190,7 @@ h2 {
 }
 
 .card-panda {
-  background-image: url(panda.png);
+  background-image: url(panda.webp);
 }
 
 .card h2 {
