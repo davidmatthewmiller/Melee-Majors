@@ -133,10 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-ssc {
-  background-image: url(ssc.png);
-}
-
 .card-shine {
   background-image: url(shine.png);
 }
@@ -153,12 +149,24 @@ h2 {
   background-image: url(zenkoku.png);
 }
 
+.card-ltc {
+  background-image: url(ltc.jpg);
+}
+
 .card-bighouse {
   background-image: url(bighouse.png);
 }
 
+.card-dh {
+  background-image: url(dh.webp);
+}
+
 .card-camp {
   background-image: url(camp.png);
+}
+
+.card-summit {
+  background-image: url(summit14.png);
 }
 
 .card-apex {
