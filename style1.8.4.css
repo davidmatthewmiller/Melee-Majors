@@ -133,14 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-shine {
-  background-image: url(shine.png);
-}
-
-.card-uprising {
-  background-image: url(uprising.png);
-}
-
 .card-riptide {
   background-image: url(riptide.png);
 }
@@ -161,6 +153,10 @@ h2 {
   background-image: url(dh.webp);
 }
 
+.card-l {
+  background-image: url(l.png);
+}
+
 .card-camp {
   background-image: url(camp.png);
 }
@@ -171,6 +167,10 @@ h2 {
 
 .card-apex {
   background-image: url(apex.jpg);
+}
+
+.card-dha {
+  background-image: url(dha.png);
 }
 
 .card-mainstage {
