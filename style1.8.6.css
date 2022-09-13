@@ -133,10 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-riptide {
-  background-image: url(riptide.png);
-}
-
 .card-zenkoku {
   background-image: url(zenkoku.png);
 }
@@ -153,6 +149,10 @@ h2 {
   background-image: url(dh.webp);
 }
 
+.card-tos {
+  background-image: url(tos.jfif);
+}
+
 .card-l {
   background-image: url(l.png);
 }
@@ -163,6 +163,10 @@ h2 {
 
 .card-summit {
   background-image: url(summit14.png);
+}
+
+.card-bgw {
+  background-image: url(bgw.jpg);
 }
 
 .card-apex {
@@ -183,6 +187,10 @@ h2 {
 
 .card-panda {
   background-image: url(panda.webp);
+}
+
+.card-g {
+  background-image: url(g.png);
 }
 
 .card h2 {
