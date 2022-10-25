@@ -133,24 +133,16 @@ h2 {
   background-position: center;
 }
 
-.card-bighouse {
-  background-image: url(bighouse.png);
-}
-
-.card-l {
-  background-image: url(l.png);
-}
-
-.card-camp {
-  background-image: url(camp.png);
-}
-
 .card-summit {
   background-image: url(summit14.png);
 }
 
 .card-bgw {
   background-image: url(bgw.jpg);
+}
+
+.card-hf {
+  background-image: url(hf.png);
 }
 
 .card-sml {
@@ -179,6 +171,14 @@ h2 {
 
 .card-g {
   background-image: url(g.png);
+}
+
+.card-collision {
+  background-image: url(c.png);
+}
+
+.card-fete {
+  background-image: url(f2.png);
 }
 
 .card h2 {
