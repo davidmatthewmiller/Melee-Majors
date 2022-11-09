@@ -133,14 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-summit {
-  background-image: url(summit14.png);
-}
-
-.card-bgw {
-  background-image: url(bgw.jpg);
-}
-
 .card-hf {
   background-image: url(hf.png);
 }
@@ -173,8 +165,16 @@ h2 {
   background-image: url(g.png);
 }
 
+.card-dd {
+  background-image: url(doubledown.png);
+}
+
 .card-collision {
   background-image: url(c.png);
+}
+
+.card-ltc {
+  background-image: url(ltc.jpg);
 }
 
 .card-fete {
