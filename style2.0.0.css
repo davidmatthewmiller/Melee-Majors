@@ -133,28 +133,28 @@ h2 {
   background-position: center;
 }
 
-.card-mainstage {
-  background-image: url(mainstage.png);
-}
-
 .card-swt {
   background-image: url(swt.png);
 }
 
-.card-panda {
-  background-image: url(panda.webp);
+.card-rr {
+  background-image: url(rr.jfif);
 }
 
 .card-g {
   background-image: url(g.png);
 }
 
-.card-dd {
-  background-image: url(doubledown.png);
+.card-eb {
+  background-image: url(eb.png);
 }
 
 .card-collision {
   background-image: url(c.png);
+}
+
+.card-mu {
+  background-image: url(mu.jpg);
 }
 
 .card-ltc {
