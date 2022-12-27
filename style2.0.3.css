@@ -133,10 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-swt {
-  background-image: url(swt.jfif);
-}
-
 .card-rr {
   background-image: url(rr.jfif);
 }
@@ -147,6 +143,10 @@ h2 {
 
 .card-eb {
   background-image: url(eb.png);
+}
+
+.card-swt {
+  background-image: url(bemi.jpg);
 }
 
 .card-collision {
