@@ -145,7 +145,7 @@ h2 {
   background-image: url(eb.png);
 }
 
-.card-swt {
+.card-bemi {
   background-image: url(bemi.jpg);
 }
 
@@ -163,6 +163,10 @@ h2 {
 
 .card-fete {
   background-image: url(f2.png);
+}
+
+.card-goml {
+  background-image: url(goml.png);
 }
 
 .card h2 {
