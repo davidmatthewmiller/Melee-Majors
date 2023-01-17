@@ -161,6 +161,10 @@ h2 {
   background-image: url(ltc.jpg);
 }
 
+.card-cb {
+  background-image: url(cb.jpg);
+}
+
 .card-fete {
   background-image: url(f2.png);
 }
