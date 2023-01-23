@@ -133,10 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-g {
-  background-image: url(g.png);
-}
-
 .card-eb {
   background-image: url(eb.png);
 }
@@ -159,6 +155,10 @@ h2 {
 
 .card-ltc {
   background-image: url(ltc.jpg);
+}
+
+.card-bobc {
+  background-image: url(bobc.jpg);
 }
 
 .card-cb {
