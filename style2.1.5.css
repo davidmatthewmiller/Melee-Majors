@@ -149,6 +149,18 @@ h2 {
   background-image: url(mu.jpg);
 }
 
+.card-sc {
+  background-image: url(sc.png);
+}
+
+.card-dh {
+  background-image: url(dh.png);
+}
+
+.card-tcu {
+  background-image: url(tcu.png);
+}
+
 .card-ltc {
   background-image: url(ltc.jpg);
 }
@@ -163,6 +175,10 @@ h2 {
 
 .card-to {
   background-image: url(to.png);
+}
+
+.card-ss {
+  background-image: url(summit.png);
 }
 
 .card-fete {
