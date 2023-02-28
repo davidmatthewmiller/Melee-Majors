@@ -133,16 +133,12 @@ h2 {
   background-position: center;
 }
 
-.card-lue {
-  background-image: url(lue.jpg);
-}
-
-.card-bemi {
-  background-image: url(bemi.jpg);
-}
-
 .card-collision {
   background-image: url(c.png);
+}
+
+.card-ddxs {
+  background-image: url(ddxs.jpg);
 }
 
 .card-mu {
@@ -161,6 +157,10 @@ h2 {
   background-image: url(tcu.png);
 }
 
+.card-alf {
+  background-image: url(alf.png);
+}
+
 .card-ltc {
   background-image: url(ltc.jpg);
 }
@@ -177,8 +177,8 @@ h2 {
   background-image: url(to.png);
 }
 
-.card-ss {
-  background-image: url(summit.png);
+.card-ceo {
+  background-image: url(ceo.png);
 }
 
 .card-fete {
