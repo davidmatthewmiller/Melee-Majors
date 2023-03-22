@@ -133,14 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-collision {
-  background-image: url(c.png);
-}
-
-.card-ddxs {
-  background-image: url(ddxs.jpg);
-}
-
 .card-mu {
   background-image: url(mu.jpg);
 }
