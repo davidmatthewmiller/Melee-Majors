@@ -149,6 +149,10 @@ h2 {
   background-image: url(tcu.png);
 }
 
+.card-otb {
+  background-image: url(otb.png);
+}
+
 .card-x {
   background-image: url(x.png);
 }
