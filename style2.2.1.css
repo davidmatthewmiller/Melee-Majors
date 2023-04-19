@@ -133,14 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-sc {
-  background-image: url(sc.png);
-}
-
-.card-dh {
-  background-image: url(dh.png);
-}
-
 .card-tcu {
   background-image: url(tcu.png);
 }
@@ -148,6 +140,11 @@ h2 {
 .card-otb {
   background-image: url(otb.png);
 }
+
+.card-scv {
+  background-image: url(scv.png);
+}
+
 
 .card-x {
   background-image: url(x.png);
@@ -187,6 +184,18 @@ h2 {
 
 .card-goml {
   background-image: url(goml.png);
+}
+
+.card-ssc {
+  background-image: url(ssc.png);
+}
+
+.card-riptide {
+  background-image: url(riptide.png);
+}
+
+.card-bh {
+  background-image: url(bh.jpg);
 }
 
 .card h2 {
