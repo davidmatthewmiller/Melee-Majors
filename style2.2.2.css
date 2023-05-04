@@ -133,29 +133,16 @@ h2 {
   background-position: center;
 }
 
-.card-tcu {
-  background-image: url(tcu.png);
-}
-
-.card-otb {
-  background-image: url(otb.png);
-}
-
-.card-scv {
-  background-image: url(scv.png);
-}
-
-
-.card-x {
-  background-image: url(x.png);
-}
-
-.card-alf {
-  background-image: url(alf.png);
+.card-wisdom {
+  background-image: url(wisdom.jpg);
 }
 
 .card-ltc {
   background-image: url(ltc.jpg);
+}
+
+.card-alf {
+  background-image: url(alf.png);
 }
 
 .card-bobc {
@@ -188,6 +175,10 @@ h2 {
 
 .card-ssc {
   background-image: url(ssc.png);
+}
+
+.card-shine {
+  background-image: url(shine.jpg);
 }
 
 .card-riptide {
