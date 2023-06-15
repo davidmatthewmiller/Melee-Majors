@@ -133,16 +133,16 @@ h2 {
   background-position: center;
 }
 
-.card-to {
-  background-image: url(to.png);
-}
-
 .card-w {
   background-image: url(w.png);
 }
 
 .card-ceo {
   background-image: url(ceo.png);
+}
+
+.card-lacs {
+  background-image: url(lacs.png);
 }
 
 .card-fete {
