@@ -133,14 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-w {
-  background-image: url(w.png);
-}
-
-.card-ceo {
-  background-image: url(ceo.png);
-}
-
 .card-lacs {
   background-image: url(lacs.png);
 }
@@ -167,6 +159,10 @@ h2 {
 
 .card-riptide {
   background-image: url(riptide.png);
+}
+
+.card-rng {
+  background-image: url(rng.png);
 }
 
 .card-bh {
