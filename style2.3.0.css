@@ -133,10 +133,6 @@ h2 {
   background-position: center;
 }
 
-.card-lacs {
-  background-image: url(lacs.png);
-}
-
 .card-fete {
   background-image: url(f2.png);
 }
@@ -153,12 +149,20 @@ h2 {
   background-image: url(ssc.png);
 }
 
+.card-bd {
+  background-image: url(bd.png);
+}
+
 .card-shine {
   background-image: url(shine.png);
 }
 
 .card-riptide {
   background-image: url(riptide.png);
+}
+
+.card-of {
+  background-image: url(of.png);
 }
 
 .card-rng {
