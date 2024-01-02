@@ -133,36 +133,36 @@ h2 {
   background-position: center;
 }
 
-.card-sf {
-  background-image: url(sf.jpg);
+.card-egg {
+  background-image: url(egg.png);
 }
 
-.card-ssc {
-  background-image: url(ssc.png);
+.card-as {
+  background-image: url(as.jpg);
 }
 
-.card-bd {
-  background-image: url(bd.png);
+.card-gx {
+  background-image: url(gx.png);
 }
 
-.card-shine {
-  background-image: url(shine.png);
+.card-bloom {
+  background-image: url(bloom.png);
 }
 
-.card-riptide {
-  background-image: url(riptide.png);
+.card-collision {
+  background-image: url(collision.jpg);
 }
 
-.card-of {
-  background-image: url(of.png);
+.card-bc {
+  background-image: url(bc.png);
 }
 
-.card-rng {
-  background-image: url(rng.png);
+.card-ltc {
+  background-image: url(ltc.jpg);
 }
 
-.card-bh {
-  background-image: url(bh.jpg);
+.card-goml {
+  background-image: url(goml.png);
 }
 
 .card h2 {
