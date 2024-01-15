@@ -133,8 +133,8 @@ h2 {
   background-position: center;
 }
 
-.card-egg {
-  background-image: url(egg.png);
+.card-valhalla {
+  background-image: url(valhalla.png);
 }
 
 .card-as {
@@ -163,6 +163,14 @@ h2 {
 
 .card-goml {
   background-image: url(goml.png);
+}
+
+.card-camp {
+  background-image: url(camp.png);
+}
+
+.card-tipped {
+  background-image: url(tipped.png);
 }
 
 .card h2 {
